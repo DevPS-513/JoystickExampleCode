@@ -3,7 +3,7 @@
 #include "Joystick.h"
 #include "Filter.h"
 
-
+// Declare a filter for the X and Y axis
 ExponentialFilter<long> ADCFilter_x(5, 0);
 ExponentialFilter<long> ADCFilter_y(5, 0);
     
@@ -436,4 +436,3 @@ void circle_blink(int num_times)
 }
 }
    
-
